@@ -5,7 +5,7 @@ import pandas as pd
 import requests
 
 # Base URL of the Flask backend
-BACKEND_URL = os.getenv("BACKEND_URL", "http://localhost:7860").rstrip("/")
+BACKEND_URL = os.getenv("BACKEND_URL", "http://backend:7860").rstrip("/")
 
 # Page title
 st.title("SuperKart System")
